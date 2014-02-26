@@ -77,8 +77,8 @@ def networkx_graph(follow_list, friends_follow, username):
 
 # main arguments
 if __name__ == '__main__':
-    access_token = ["24422099.a221863.38231da150164610b36ca3be151a2121",
-                    "24422099.f35fa51.509470e995004f3fa466169286a74e80"]
+    access_token = ["24422099.a221863.38231da150164610b36ca3be151a212",
+                    "24422099.f35fa51.509470e995004f3fa466169286a74e8"]
     api = InstagramAPI(access_token=access_token[0])
     user_name = sys.argv[1]
     if user_name:
